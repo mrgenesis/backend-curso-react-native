@@ -4,6 +4,7 @@ module.exports = {
 		database: process.env.DB_NAME, //'tasks',
 		user: process.env.DB_USER, //'postgres',
 		password: process.env.DB_PASSWORD, //'123456'
+		host: 'tiny.db.elephantsql.com'
 	},
 	pool: {
 		min: 2,
